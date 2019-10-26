@@ -1,0 +1,44 @@
+form {
+  margin-top:50px;
+}
+
+#file-input::-webkit-file-upload-button{
+  visibility:hidden;
+  display:inline-block;
+  width:0;
+  height:35px;
+}
+
+#file-input{
+  background-color:#f7f7f9;
+  border-radius:0 5px 5px 0;
+  width:66%;
+}
+
+#file-input-label{
+  display:inline-block;
+  padding:10px 0;
+}
+
+#file-input-container{
+  margin:0 auto;
+  width: 450px;
+}
+
+.btn {
+  background-color:#848BAD;
+  border:none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #eee;
+  border-radius: 2px 0 0 2px;
+  width:33%;
+  margin: 10px auto;
+}
+.btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 5px 20px -10px rgba(0,0,0,0.57);
+}

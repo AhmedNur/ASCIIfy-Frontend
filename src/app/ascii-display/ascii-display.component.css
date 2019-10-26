@@ -1,0 +1,12 @@
+pre {
+  background-color:#f7f7f9;
+  font-size:10px;
+  line-height:6px;
+  padding:8px;
+  border-radius:5px;
+  display:inline-block;
+  margin:25px auto;
+}
+div {
+  text-align:center;
+}
