@@ -1,6 +1,6 @@
 <form method="POST" action="localhost:8080/upload" id="file-upload-form" enctype="multipart/form-data">
   <div id="file-input-container">
-    <label for="file-input" id="file-input-label" class="btn">Select Image</label>
+    <label for="file-input" id="file-input-label" class="btn">{{fileName}}</label>
     <input id="file-input" type="file" name="file" (change)="autoSubmitForm($event)"
          accept=".jpg, .jpeg, .png, image/jpeg, image/png" />
   </div>

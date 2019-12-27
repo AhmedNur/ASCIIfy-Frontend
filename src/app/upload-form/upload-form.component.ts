@@ -11,14 +11,18 @@ export class UploadFormComponent implements OnInit {
 
   ascii: string;
 
+  fileName: string;
+
   fieldNotEmpty: boolean;
 
   constructor(private http: HttpClient, private fileUploadService: FileUploadService) { }
 
   ngOnInit() {
+    this.fileName = 'Select Image';
   }
 
   autoSubmitForm(e: Event) {
+    this.fileName = (e.target as HTMLInputElement).files.item(0).name;
     if((e.target as HTMLInputElement).files.item(0) != null) {
       this.fieldNotEmpty = true;
       this.fileUploadService.uploadImage(e).subscribe(data => this.ascii = data, err => console.log(err));
