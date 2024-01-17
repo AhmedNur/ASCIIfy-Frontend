@@ -1,4 +1,4 @@
-This is an extremely basic angular app created as a frontend for an ASCII art generator. It was made to get familiar with angular.
+This is an extremely basic angular app created as a frontend for an ASCII art generator.
 
 ### Demo
 
